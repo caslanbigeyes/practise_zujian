@@ -1,0 +1,47 @@
+@import url(~animate.css);
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(#000, 36%);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background-color: rgba(#000, 36%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(#000, 48%);
+}
+
+.ant-advanced-search-form .ant-form-item-control-wrapper,
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+  flex: 1;
+}
+
+.ant-table.ant-table-small .ant-table-title,
+.ant-table.ant-table-small .ant-table-footer,
+.ant-table.ant-table-small .ant-table-thead > tr > th,
+.ant-table.ant-table-small .ant-table-tbody > tr > td,
+.ant-table.ant-table-small tfoot > tr > th,
+.ant-table.ant-table-small tfoot > tr > td {
+  padding: 6px;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  // white-space: nowrap;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #e6f7ff;
+  cursor: pointer;
+}

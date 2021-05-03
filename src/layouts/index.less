@@ -1,0 +1,47 @@
+
+.layout {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 46px;
+  padding: 0 16px;
+  color: #fff;
+  background: #0d3563;
+  .logo {
+    padding-left: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .userAction {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    &:hover, &:focus {
+      color: #1890ff;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  height: calc(100% - 46px);
+}
+
+.menu {
+  flex-shrink: 0;
+  width: 256px;
+  height: 100%;
+  background: #001529;
+}
+
+.content {
+  flex: auto;
+  min-width: 0;
+}
